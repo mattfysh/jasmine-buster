@@ -4,7 +4,7 @@ A new Jasmine reporter.
 
 Execute your Jasmine specs from the command-line, using Buster.
 
-!['Running Jasmine specs from Buster'](https://raw.github.com/mattfysh/jasmine-buster/master/console.png)
+!['Running Jasmine specs from Buster'](https://raw.github.com/mattfysh/jasmine-buster/master/img/console.png)
 
 ### The Magic
 
@@ -42,7 +42,7 @@ See the basic examples included in this repository, otherwise see how [testr.js]
 
 Remove the stack trace noise and see exactly where an error began. The `filters` code above removes any jasmine-related entries from an error, leaving it immediately clear where an error has occurred. Compare the screenshot above with this, from the standard Jasmine HTML Reporter:
 
-!['Error Reporting Noise'](https://raw.github.com/mattfysh/jasmine-buster/master/noise.png)
+!['Error Reporting Noise'](https://raw.github.com/mattfysh/jasmine-buster/master/img/noise.png)
 
 ### It's Not All Good News
 
