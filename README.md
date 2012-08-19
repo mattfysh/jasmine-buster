@@ -1,4 +1,4 @@
-# buster-jasmine
+# jasmine-buster
 
 A new Jasmine reporter.
 
