@@ -5,12 +5,13 @@ require('buster').stackFilter.filters.push('jasmine.js');
 config['jasmine-buster'] = {
 	env: 'browser',
 	autoRun: false,
+	rootPath: '../',
 	testHelpers: [
-		'jasmine.js',
+		'jasmine/jasmine.js',
 		'jasmine-buster.js',
-		'run.js'
+		'spec/run.js'
 	],
 	specs: [
-		'test.spec.js'
+		'spec/test.spec.js'
 	]
 }
