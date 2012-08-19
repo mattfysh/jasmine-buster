@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<body>
+
+	<link rel="stylesheet" href="jasmine.css" />
+
+	<script src="jasmine.js"></script>
+	<script src="jasmine-html.js"></script>
+	<script src="test.spec.js"></script>
+	<script>
+		var env = jasmine.getEnv(),
+			reporter = new jasmine.HtmlReporter();
+
+		env.addReporter(reporter);
+		
+		window.onload = function() {
+			env.execute();
+		}
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "jasmine-buster",
+  "version": "0.1.0",
+  "author": "Matt Fysh <mattfysh@gmail.com>",
+  "description": "Adds a Jasmine reporter that transports results to Buster",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattfysh/jasmine-buster"
+  },
+  "license": "MIT",
+  "volo": {
+    "url": "https://raw.github.com/mattfysh/jasmine-buster/{version}/jasmine-buster.js"
+  }
+}
